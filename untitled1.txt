@@ -1,0 +1,36 @@
+import numpy as np
+from PIL import Image
+import pandas as pd
+import matplotlib.pyplot as plt
+import glob
+import os
+import random
+
+
+def split_cross_val(train_set, cv_frac, directory = None, file_type = '.jpeg'):
+    """ parameters:
+        - train_set: list containing filenames of training example data in a directory that needs to be sorted 
+        or a dataframe containing data that needs to be split.
+        
+        - cv_fac: fraction of training set that will be seperated into cross-validation set
+        
+        - directory: directory of training set
+        
+        if training set is in directory then this function will split data into two sets and move
+        data into two seperate folders. If training set is a datafame it will return two dataframes
+        one for a cross val set and one for a training set.
+        """
+    
+    random.see(42)
+    
+    random.choice(train_set, )
+    
+    
+    
+    if directory is not None:
+        
+        os.chdir(directory)
+        
+        
+        
+        
